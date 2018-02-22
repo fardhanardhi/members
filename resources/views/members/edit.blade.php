@@ -7,7 +7,7 @@
                 <h2>Edit Member</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('members.index') }}"> Back</a>
+                <a class="btn btn-single btn-primary" href="{{ route('members.index') }}"> Back</a>
             </div>
         </div>
     </div>

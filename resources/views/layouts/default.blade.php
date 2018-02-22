@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel 5.5 CRUD example</title>
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 </head>
 <body>
  
-<div class="container">
+<div style="margin-top: 50px" class="container">
     @yield('content')
 </div>
  

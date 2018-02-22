@@ -1,15 +1,19 @@
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12">
+    <div style="float: none; margin-right: auto; margin-left: auto;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="form-group">
-            {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
+            {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'text-center form-control')) !!}
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12">
+</div>
+<div class="row">
+    <div style="float: none; margin-right: auto; margin-left: auto;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="form-group">
-            {!! Form::email('email', null, array('placeholder' => 'Email','class' => 'form-control')) !!}
+            {!! Form::email('email', null, array('placeholder' => 'Email','class' => 'text-center form-control')) !!}
         </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+</div>
+<div class="row">
+    <div style="float: none; margin-right: auto; margin-left: auto;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
             <button type="submit" class="btn btn-single btn-primary">Submit</button>
     </div>
 </div>

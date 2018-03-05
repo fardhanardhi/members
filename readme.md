@@ -18,7 +18,7 @@ composer install
 Create a new database, for example with phpMyAdmin. Then open the .env.example file, edit it to match your database name, username and password and save it as .env file. 
 
 
-Check your MySQL Version, if MySQL version < v5.7.7 follow [this instructions](https://gist.github.com/fardhanardhi/75294a0830d9601c20057a9463b5936d#file-laravel-specified-key-was-too-long-error-txt)
+Check your MySQL Version, if MySQL version < v5.7.7 follow [this instructions](https://gist.github.com/fardhanardhi/75294a0830d9601c20057a9463b5936d#file-laravel_specified_key_error-md)
 
 
 
